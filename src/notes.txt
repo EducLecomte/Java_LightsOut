@@ -1,0 +1,8 @@
+
+Modification :
+- passer plateau en abstract
+- passer l'attribut plateau en plateauLed dans la classe LightsOut
+- suppression de public void genererPlateauVide() dans la classe LightsOut
+- ajout de la methode public void reinitJeu() dans la classe LightsOut
+- ajout de la méthode public CaseLed getLed(int y, int x) dans la classe PlateauLed
+- remplacement de testvoisins, par 4 methodes testvoisin (haut, bas, gauche, droite)
